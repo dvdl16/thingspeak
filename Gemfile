@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '4.0.5'
 gem 'jquery-rails', '3.0.4'
 gem 'rails_autolink'
-gem 'mysql2'
+gem 'pg'
 gem 'devise'
 gem 'twitter_oauth', git: 'git://github.com/moomerman/twitter_oauth.git'
 gem 'therubyracer'
@@ -41,6 +41,7 @@ gem 'clockwork'
 
 # to use debugger
 # gem 'ruby-debug'
+# comment
 
 # assets
 gem "sass-rails", "4.0.2"
@@ -68,3 +69,4 @@ group :test do
   gem 'database_cleaner', '~> 1.2.0'
 end
 
+#ruby '2.0.0'
